@@ -1004,14 +1004,14 @@ main .hero .icon_con span {
 /*  */
 @media screen and (min-width: 0) and (max-width:548px) {
     .benefits {
-        padding: 15px 25px;
+        padding: 15px 2px;
     }
 
     .benefits .counter {
         padding: 0 0;
     }
  .benefits .item {
-    margin-left: -13%;
+    margin-left: 0;
  }
     .benefits .ben_top p {
         height: fit-content;
@@ -1043,7 +1043,7 @@ main .hero .icon_con span {
 @media screen and (min-width:548px) and (max-width:600px) {
 
     .benefits {
-        padding: 15px 25px;
+        padding: 15px 2لpx;
     }
 
     .benefits .counter {
