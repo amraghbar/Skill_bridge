@@ -1010,9 +1010,11 @@ main .hero .icon_con span {
     .benefits .counter {
         padding: 0 0;
     }
- .benefits .item {
-    margin-left: 0;
- }
+
+    .benefits .item {
+        margin-left: 0;
+    }
+
     .benefits .ben_top p {
         height: fit-content;
         width: 100%;
@@ -1105,16 +1107,17 @@ main .hero .icon_con span {
         width: 637px;
     }
 
-    
+
     .ben_bot .card h2 {
         font-size: 23px;
     }
+
     .ben_bot .word p {
         font-size: 16px;
     }
 }
 
-@media screen and (min-width: 905px) and (max-width: 1200px) { 
+@media screen and (min-width: 905px) and (max-width: 1200px) {
     .benefits {
         padding: 15px 25px;
     }
@@ -1131,7 +1134,7 @@ main .hero .icon_con span {
     .benefits .ben_bot .card {
         gap: 30px;
         padding: 30px;
-        width:30%;
+        width: 30%;
         margin-left: 5px;
     }
 
@@ -1145,11 +1148,11 @@ main .hero .icon_con span {
         width: 247px;
     }
 
-    
+
     .ben_bot .card h2 {
         font-size: 16px;
     }
- 
+
 }
 
 @media screen and (min-width: 1201px) {
@@ -1169,7 +1172,7 @@ main .hero .icon_con span {
     .benefits .ben_bot .card {
         gap: 30px;
         padding: 30px;
-        width:30%;
+        width: 30%;
         margin-left: 5px;
     }
 
@@ -1183,12 +1186,13 @@ main .hero .icon_con span {
         width: 370px;
     }
 
-    
+
     .ben_bot .card h2 {
         font-size: 24px;
     }
- 
+
 }
+
 /*  */
 .courses {
     padding: 3% 0;
@@ -1298,7 +1302,8 @@ main .hero .icon_con span {
 .course_bot .attr {
     width: 100%;
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .course_bot .attr .right {
@@ -1402,6 +1407,313 @@ main .hero .icon_con span {
     font-weight: 600;
     text-align: center;
 }
+
+/*  */
+@media screen and (min-width: 0) and (max-width:548px) {
+    .courses {
+        padding: 15px 2px;
+        width: 100%;
+    }
+
+    .courses .counter {
+        padding: 0 0;
+        width: 90%;
+    }
+
+    .courses .item {
+        margin-left: 0;
+    }
+
+   .courses .course_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .courses .course_bot .object {
+        gap: 30px;
+        padding: 13px;
+        width: 100%;
+    }
+
+    .courses_bot .ben_bot .object p {
+        height: fit-content;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .course_bot img {
+        width: 100%;
+    }
+
+    .course_bot .attr .left {
+        margin-left: 5px;
+    }
+
+    .course_bot .deti .link a {
+        padding: 14px 24px;
+        border-radius: 6px;
+        color: #262626;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+
+    .courses_bot .object span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 549px) and (max-width:600px) {
+    .courses {
+        padding: 15px 2px;
+        width: 100%;
+    }
+
+    .courses .counter {
+        padding: 0 0;
+        width: 90%;
+    }
+
+    .courses .item {
+        margin-left: 0;
+    }
+
+    .courses .course_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .courses .course_bot .object {
+        gap: 30px;
+        padding: 13px;
+        width: 100%;
+    }
+
+    .courses_bot .ben_bot .object p {
+        height: fit-content;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .course_bot img {
+        width: 100%;
+    }
+
+    .course_bot .attr .left {
+        margin-left: 5px;
+    }
+
+    .course_bot .deti .link a {
+        padding: 14px 24px;
+        border-radius: 6px;
+        color: #262626;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+
+
+    .courses_bot .object span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:904px) {
+    .courses {
+        padding: 15px 2px;
+        width: 100%;
+    }
+
+    .courses .counter {
+        padding: 0 0;
+        width: 90%;
+    }
+
+    .courses .item {
+        margin-left: 0;
+    }
+
+    .courses .course_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .courses .course_bot .object {
+        gap: 30px;
+        padding: 13px;
+        width: 100%;
+    }
+
+    .courses_bot .ben_bot .object p {
+        height: fit-content;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .course_bot img {
+        width: 100%;
+    }
+
+    .course_bot .attr .left {
+        margin-left: 5px;
+    }
+
+    .course_bot .deti .link a {
+        padding: 14px 24px;
+        border-radius: 6px;
+        color: #262626;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+
+    .courses_bot .object span {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:904px) {
+    .courses {
+        padding: 15px 2px;
+        width: 100%;
+    }
+
+    .courses .counter {
+        padding: 0 0;
+        width: 90%;
+    }
+
+    .courses .item {
+        margin-left: 0;
+    }
+
+    .courses .course_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .courses .course_bot .object {
+        gap: 30px;
+        padding: 13px;
+        width: 100%;
+    }
+
+    .courses_bot .ben_bot .object p {
+        height: fit-content;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .course_bot img {
+        width: 100%;
+    }
+
+    .course_bot .attr .left {
+        margin-left: 5px;
+    }
+
+    .course_bot .deti .link a {
+        padding: 14px 24px;
+        border-radius: 6px;
+        color: #262626;
+        text-align: center;
+        width: 100%;
+        font-size: 15.5px;
+        font-weight: 600;
+        transition: all 0.5s;
+    }
+
+
+    .courses_bot .object span {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:905px) and (max-width:1200px) {
+    .courses {
+        padding: 15px 2px;
+        width: 100%;
+    }
+
+    .courses .counter {
+        padding: 0 0;
+        width: 90%;
+    }
+
+    .courses .item {
+        margin-left: 0;
+        gap: 30px;
+    }
+
+    .courses .course_top p {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .course_bot .attr {
+        gap: 9px;
+    }
+
+    .course_bot .deti .word p {
+        height: 122px;
+    }
+
+    .courses .course_bot .object {
+        margin-top: 0;
+        gap: 30px;
+        padding: 25px;
+        width: calc((100% - 30px) / 2);
+    }
+
+    .courses_bot .ben_bot .object p {
+        height: fit-content;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .course_bot img {
+        width: 100%;
+    }
+
+    .course_bot .attr .left {
+        margin-left: 5px;
+    }
+
+    .course_bot .deti .link a {
+        padding: 14px 24px;
+        border-radius: 6px;
+        color: #262626;
+        text-align: center;
+        width: 100%;
+        font-size: 15.5px;
+        font-weight: 600;
+        transition: all 0.5s;
+    }
+
+
+    .courses_bot .object span {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1201px) {
+    .courses .course_bot .object {
+        padding: 20px;
+    }
+}
+
 
 /*  */
 .test {
@@ -1575,6 +1887,43 @@ main .hero .icon_con span {
 
     text-align: center;
 }
+/*  */
+@media screen and (min-width: 0) and (max-width:547px) {
+   .test{
+    padding: 10px 10px;
+   }
+    .test .counter{
+        padding: 0 0;
+        width: 100%;
+    }    
+    .test .test_top p {
+        height: fit-content;
+        width: 100%;
+        font-size: 14px;
+        padding: 30px;
+    }
+
+    .test .test_bot .object{
+        padding: 0 0;
+        width: 100%;
+    }
+    .test .test_bot .object p{
+        font-size: 16px;
+    }
+    .test .test_bot .info a{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 /*  */
 .pricing {
